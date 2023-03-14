@@ -4,10 +4,12 @@ nav{
     flex-direction: row;
     justify-content: flex-start;
     padding: 7px 7px 7px;
-    height: 45px;
+    height: 40px;
 }
 .navbar-brand{
     color: #fff;
     text-decoration: none;
     font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
