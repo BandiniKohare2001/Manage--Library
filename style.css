@@ -29,3 +29,21 @@ nav{
     margin-left: 90px;
 
 }
+.search-btn{
+    height: 35px;
+    width: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    border-style: solid black;
+
+}
+.search-bar{
+    width: 400px;
+    height: 35px;
+    margin-left: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    border-style: solid black;
+}
