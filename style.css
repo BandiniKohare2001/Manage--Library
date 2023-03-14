@@ -14,3 +14,18 @@ nav{
     margin-bottom: auto;
     margin-left: 10px;
 }
+.home-img{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.nav-home{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;  color: #fff;
+    margin-left: 90px;
+
+}
