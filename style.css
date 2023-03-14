@@ -1,0 +1,13 @@
+nav{
+    background-color: #343a40!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 7px 7px 7px;
+    height: 45px;
+}
+.navbar-brand{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
