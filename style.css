@@ -125,3 +125,15 @@ nav{
     margin-top: 20px;
     margin-left: 60px;
 }
+.addbook-btn{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 200px;
+    margin-left: 100px;
+    background-color: rgb(44, 44, 237);
+    color: #f4f0f0;
+}
