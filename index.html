@@ -3,24 +3,57 @@
 <head>
     <title>main</title>
     <style>
-        body{
-    background-color: antiquewhite;
-}
+/*
 nav{
-    background-color: #343a40!important;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(img/banner.jpeg);
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 7px 7px 7px 7px;
-    height: 40px;
+  
+
+}*/
+body{
+    background-color:azure
+}
+nav{
+    
+    background-image: linear-gradient(to right, #3f2321, transparent), url(img/banner.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: hidden;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: #e08888;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 .navbar-brand{
     color: #fff;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 25px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .home-img{
     height: 20px;
@@ -60,6 +93,7 @@ nav{
     border-radius: 20px;
     border-style: solid black;
     margin-left: 300px;
+    margin-top: 10px;
 }     
     </style>
 </head>
@@ -67,11 +101,10 @@ nav{
 <body>
     <nav class="nav">
         <a class="navbar-brand" href="#">Book Record</a>
-
-        <a class="nav-home" href="index.html"> Home</a>
-        <a class="nav-home" href="./pages/addbook1.html"> Add Book</a>
-
-
+<ul>
+        <li><a class="nav-home" href="index.html"> Home</a></li>
+        <li><a class="nav-home" href="./pages/addbook1.html"> Add Book</a></li>
+</ul>
         <form>
             <input class="search-bar" id="searchTxt" type="search" placeholder="Search book here..."
                 aria-label="Search">
