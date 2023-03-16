@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Add books here</title>
+    <style>body{
+        background-color: antiquewhite;
+    }
+    nav{
+        background-color: #343a40!important;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 7px 7px 7px 7px;
+        height: 40px;
+    }
+    .navbar-brand{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 10px;
+    }
+    .home-img{
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+    }
+    .nav-home{
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 10px;  color: #fff;
+        margin-left: 90px;
+    
+    }
+    .nav-add-book{
+        color: #fff;
+        text-decoration: none;
+        font-size: 17px;
+        margin-top: 13px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+    .search-btn{
+        height: 35px;
+        width: 70px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 20px;
+        border-style: solid black;
+    
+    }
+    .search-bar{
+        width: 300px;
+        height: 35px;
+        margin-left: 650px;
+        border-radius: 20px;
+        border-style: solid black;
+    }
+    .search{
+        width: 300px;
+        height: 35px;
+        margin-left: 300px;
+        border-radius: 20px;
+        border-style: solid black;
+    }
+    .line{
+        margin-bottom: 20px;
+    }
+    .div2{
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .book-name-row{
+        margin-left: 7px;
+    }
+    .book-name{
+        height: 40px;
+        font-size: 18px;
+      
+       
+    }
+    .form-control{
+        width: 700px;
+        height: 30px;
+        border-radius: 10px;
+        margin-right: 100px;
+        margin-left: 50px;
+        font-size: 15px;
+        border-color: black;
+        border-width: 2px;
+    }
+    .author{
+        height: 40px;
+        font-size: 18px;
+    }
+    .form-control-2{
+        width: 700px;
+        height: 30px;
+        border-radius: 10px;
+        margin-right: 100px;
+        font-size: 15px;
+        border-color: black;
+        border-width: 2px;
+        margin-top: 20px;
+        margin-left: 85px;
+    }
+    .book-id{
+        height: 40px;
+        font-size: 18px;
+    }
+    .form-control-3{
+        width: 700px;
+        height: 30px;
+        border-radius: 10px;
+        margin-right: 100px;
+        font-size: 15px;
+        border-color: black;
+        border-width: 2px;
+        margin-top: 20px;
+        margin-left: 78px;
+    }
+    .book-type{
+        height: 40px;
+        font-size: 18px;
+    
+    }
+    .form-control-4{
+        width: 700px;
+        height: 30px;
+        border-radius: 10px;
+        margin-right: 100px;
+        font-size: 15px;
+        border-color: black;
+        border-width: 2px;
+        margin-top: 20px;
+        margin-left: 58px;
+    }
+    .addbook-btn{
+        width: 120px;
+        height: 45px;
+        border-radius: 10px;
+        font-size: 15px;
+        border-color: black;
+        border-width: 2px;
+        margin-top: 200px;
+        margin-left: 100px;
+        background-color: rgb(44, 44, 237);
+        color: #f4f0f0;
+    }
+    .div3{
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 35px;
+    }
+    .line2{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 0%;
+    }
+    </style>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <a class="navbar-brand" href="#">Book Record</a>
+
+        <a class="nav-home" href="/index.html"> <img src="/img/home.png" class="home-img"><br>Home</a>
+
+        <form>
+            <input class="search-bar" id="searchTxt" type="search" placeholder="Search book here..."
+                aria-label="Search">
+            <button class="search-btn" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="div2">
+        <h1>Manage Books</h1>
+
+        <hr class="line">
+        <form id="book-form">
+            <div class="book-name-row">
+                <label for="bookName" class="book-name">Book Name</label>
+                <input type="text" class="form-control" id="bookName" placeholder="Book Name">
+            </div>
+            <div class="book-name-row">
+                <label for="Author" class="author">Author</label>
+                <input type="text" class="form-control-2" id="author" placeholder="Author">
+            
+            </div>
+            <div class="book-name-row">
+                <label for="Author" class="book-id">Book Id</label>
+                <input type="text" class="form-control-3" id="bookid" placeholder="Book id">
+            
+            </div>
+            <div class="book-name-row">
+                <label for="Author" class="book-type">Book Type</label>
+                <input type="text" class="form-control-4" id="book" placeholder="Book type">
+            
+            </div>
+    </div>
+    <div class="col-sm-10">
+        <button type="submit" class="addbook-btn">Add Book</button>
+    </div>
+        <h1 class="div3">Your books</h1>
+        <hr class="line2">
+    </div>
+</div>
+</body>
+
+</html>
