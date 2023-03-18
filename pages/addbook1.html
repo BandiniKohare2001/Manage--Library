@@ -7,68 +7,88 @@
     <style>body{
         background-color: antiquewhite;
     }
-    nav{
-        background-color: #343a40!important;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        padding: 7px 7px 7px 7px;
-        height: 40px;
-    }
-    .navbar-brand{
-        color: #fff;
-        text-decoration: none;
-        font-size: 20px;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10px;
-    }
-    .home-img{
-        height: 20px;
-        width: 20px;
-        margin-left: 5px;
-    }
-    .nav-home{
-        color: #fff;
-        text-decoration: none;
-        font-size: 13px;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 10px;  color: #fff;
-        margin-left: 90px;
+    body{
+    background-color:azure
+}
+nav{
     
-    }
-    .nav-add-book{
-        color: #fff;
-        text-decoration: none;
-        font-size: 17px;
-        margin-top: 13px;
-        margin-bottom: 15px;
-        margin-left: 30px;
-    }
-    .search-btn{
-        height: 35px;
-        width: 70px;
-        margin-top: auto;
-        margin-bottom: auto;
-        border-radius: 20px;
-        border-style: solid black;
-    
-    }
-    .search-bar{
-        width: 300px;
-        height: 35px;
-        margin-left: 650px;
-        border-radius: 20px;
-        border-style: solid black;
-    }
-    .search{
-        width: 300px;
-        height: 35px;
-        margin-left: 300px;
-        border-radius: 20px;
-        border-style: solid black;
-    }
+    background-image: linear-gradient(to right, #3f2321, transparent), url(img/banner.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: hidden;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: #e08888;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.navbar-brand{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.home-img{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+.nav-home{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;  color: #fff;
+    margin-left: 90px;
+
+}
+.nav-add-book{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 13px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.search-btn{
+    height: 35px;
+    width: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    border-style: solid black;
+
+}
+.search-bar{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    border-style: solid black;
+    margin-left: 300px;
+    margin-top: 10px;
+}     
     .line{
         margin-bottom: 20px;
     }
@@ -187,9 +207,10 @@
 
     <nav class="nav">
         <a class="navbar-brand" href="#">Book Record</a>
-
-        <a class="nav-home" href="/index.html"> <img src="/img/home.png" class="home-img"><br>Home</a>
-
+<ul>
+        <li><a class="nav-home" href="/index.html"> Home</a></li>
+        <li><a class="nav-home" href="/pages/addbook1.html"> Add Book</a></li>
+</ul>
         <form>
             <input class="search-bar" id="searchTxt" type="search" placeholder="Search book here..."
                 aria-label="Search">
